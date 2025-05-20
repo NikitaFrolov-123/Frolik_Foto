@@ -1,0 +1,212 @@
+.marry__title{
+    color: #CC7722;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.services__container{
+    
+    margin-left: 30px;
+    margin-top: 30px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.marry__list{
+    gap: 30px;
+    list-style: none;
+    display: flex;
+}
+
+.marry__card__man{
+    background-color: rgba(204, 119, 34, 0.85);
+    width: 668px;
+    padding: 15px;
+    width: 670px;
+}
+
+.marry__card__woman{
+    background-color: rgba(204, 119, 34, 0.85);
+    width: 668px;
+    padding: 15px;
+    width: 670px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 200px;
+    height: auto;
+}
+
+.name{
+    color: #ffffff;
+    margin-left: 60px;
+    width: 345px;
+    font-size: 30px;
+}
+
+.info__photographer{
+    margin-top: 15px;
+    width: 635px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.subheading__marry{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.works{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px;
+    align-items: center;
+    gap: 15px;
+    max-width: 635px;
+    height: auto;
+}
+
+.work__foto{
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+    .marry__list {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .marry__title {
+        font-size: 28px;
+    }
+    
+    .name {
+        font-size: 26px;
+    }
+    
+    .info__photographer {
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .works {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    .marry__title {
+        font-size: 26px;
+    }
+    
+    .marry__card__man, .marry__card__woman {
+        width: 560px;
+    }
+    
+    .name {
+        font-size: 24px;
+        width: 300px;
+    }
+    
+    .info__photographer {
+        font-size: 16px;
+    }
+    
+    .avatar {
+        width: 180px;
+    }
+}
+
+@media (max-width: 767px) {
+    .marry__title {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    
+    .services__container {
+        margin-left: 0;
+    }
+    
+    .marry__card__man, .marry__card__woman {
+        width: 90%;
+        max-width: 500px;
+    }
+    
+    .name {
+        font-size: 20px;
+        margin-left: 20px;
+        width: 200px;
+    }
+    
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .avatar {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    
+    .info__photographer {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .subheading__marry {
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .works {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .marry__title {
+        display: flex;
+        text-align: center;
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .marry__list{
+        margin-left: 50px;
+    }
+    
+    .marry__card__man, .marry__card__woman {
+        padding: 10px;
+    }
+    
+    .name {
+        font-size: 18px;
+    }
+    
+    .info__photographer {
+        font-size: 14px;
+    }
+    
+    .subheading__marry {
+        font-size: 16px;
+    }
+    
+    .works {
+        grid-template-columns: 1fr;
+    }
+}

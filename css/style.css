@@ -1,0 +1,19 @@
+@import '/css/_reset.css';
+@import '/css/_home.css';
+@import '/css/_header.css';
+@import '/css/_vars.css';
+@import '/css/_footer.css';
+
+@import '/css/_services.css';
+
+@import '/css/_about.css';
+
+@import '/css/_record.css';
+
+@import '/css/_marry.css';
+
+@import '/css/_contacts.css';
+
+@import '/css/_appointment.css';
+
+@import '/css/_responsive.css';
