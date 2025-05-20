@@ -1,19 +1,19 @@
-@import '/css/_reset.css';
-@import '/css/_home.css';
-@import '/css/_header.css';
-@import '/css/_vars.css';
-@import '/css/_footer.css';
+@import '_reset.css';
+@import '_home.css';
+@import '_header.css';
+@import '_vars.css';
+@import '_footer.css';
 
-@import '/css/_services.css';
+@import '_services.css';
 
-@import '/css/_about.css';
+@import '_about.css';
 
-@import '/css/_record.css';
+@import '_record.css';
 
-@import '/css/_marry.css';
+@import '_marry.css';
 
-@import '/css/_contacts.css';
+@import '_contacts.css';
 
-@import '/css/_appointment.css';
+@import '_appointment.css';
 
-@import '/css/_responsive.css';
+@import '_responsive.css';
