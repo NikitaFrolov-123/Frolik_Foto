@@ -25,7 +25,7 @@
 }
 
 .footer__center {
-    margin-left: 201px;
+    margin: auto;
 }
 
 .footer__report{
@@ -36,7 +36,7 @@
 .footer__right {
     margin-top: 40px;
     font-size: 32px;
-    margin-left: 348px;
+   margin-right: 50px;
 }
 
 .contact__icons {
